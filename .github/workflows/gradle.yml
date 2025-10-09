@@ -35,7 +35,7 @@ jobs:
     - name: build & Push Doker Image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: shashanktandon6342/abc
+        image: shashanktandon6342/xyz
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
