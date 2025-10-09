@@ -31,10 +31,10 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: build & Push Doker Image
-      uses: mr-smithers-excellent/docker-build-push@v6
-      with:
-        image: shashanktandon6342/xyz
-        registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+    # - name: build & Push Doker Image
+    #   uses: mr-smithers-excellent/docker-build-push@v6
+    #   with:
+    #     image: shashanktandon6342/xyz
+    #     registry: docker.io
+    #     username: ${{ secrets.DOCKER_USERNAME }}
+    #     password: ${{ secrets.DOCKER_PASSWORD }}
